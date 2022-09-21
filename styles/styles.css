@@ -1,14 +1,13 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "PT Sans", sans-serif;
   background: rgb(237, 231, 220);
   background: linear-gradient(90deg, rgb(237, 231, 220) 48%, rgb(189, 195, 203) 100%);
-  margin: 0;
-  padding: 0;
 }
 
 h1,

@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,8 +12,6 @@ body {
     rgba(237, 231, 220, 1) 48%,
     rgba(189, 195, 203, 1) 100%
   );
-  margin: 0;
-  padding: 0;
 }
 
 h1,
