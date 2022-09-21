@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Note Taker App</title>
+
+    <!-- Imports Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- Imports Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Imports Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- imports styles -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Note Taker</h1>
+          <h2 class="text-success">Add new Note:</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <form class="row g-3">
+            <div class="col-12">
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2">Start typing...</label>
+              </div>
+            </div>
+            <div class="col-12 button-container">
+              <button type="submit" class="btn btn-success button-add-expense">
+                Add Note
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="note-body row">
+        <div class="col-6">
+          <h5>First Note</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+            consequatur voluptatum libero temporibus omnis quidem dolore
+            inventore commodi sed ex, nesciunt, quod iure error officia.
+            Excepturi magnam laudantium obcaecati voluptas!
+          </p>
+        </div>
+        <div class="col-6">
+          <h5>First Note</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+            consequatur voluptatum libero temporibus omnis quidem dolore
+            inventore commodi sed ex, nesciunt, quod iure error officia.
+            Excepturi magnam laudantium obcaecati voluptas!
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Imports Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Imports JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
