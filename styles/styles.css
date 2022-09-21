@@ -1,7 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   background: rgb(237, 231, 220);
   background: linear-gradient(90deg, rgb(237, 231, 220) 48%, rgb(189, 195, 203) 100%);
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -20,7 +27,6 @@ main h1 {
 }
 main h2 {
   text-align: center;
-  color: #bdc3cb;
 }
 main form {
   margin-bottom: 50px;
@@ -28,27 +34,8 @@ main form {
 main form .button-container {
   margin-top: 30px;
 }
-main form .button-container .button-add-expense {
+main form .button-container .button-add-notes {
   width: 150px;
   margin: 0 auto;
   display: block;
-}
-main .table thead td {
-  font-weight: bold;
-  vertical-align: middle;
-}
-main .table tbody tr {
-  vertical-align: middle;
-}
-main .table .del-btn {
-  font-size: 20px;
-  padding: 0;
-}
-main td {
-  text-align: center;
-}
-@media only screen and (min-width: 992px) {
-  main td {
-    text-align: left;
-  }
 }/*# sourceMappingURL=styles.css.map */
